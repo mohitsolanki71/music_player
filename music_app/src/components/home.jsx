@@ -34,6 +34,7 @@ export const Home = () => {
     } else {
       playlist.push(song);
       localStorage.setItem("playlist", JSON.stringify(playlist));
+      alert("Song is successfully added to playlist");
     }
   };
 

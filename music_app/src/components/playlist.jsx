@@ -63,7 +63,9 @@ export const PlayList = () => {
           ))}
         </div>
       ) : (
-        <div id="empty_playlist">Playlist is Empty</div>
+        <div id="empty_playlist">
+          <img src="https://cdn.dribbble.com/users/1554526/screenshots/3399669/media/51c98501bc68499ed0220e1ba286eeaf.png?compress=1&resize=400x300"></img>
+        </div>
       )}
     </div>
   );
