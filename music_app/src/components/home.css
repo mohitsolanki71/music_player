@@ -71,7 +71,7 @@
     justify-content: center;
     margin: auto;
     padding: 20px;
-    grid-template-columns: repeat(3, 20%);
+    grid-template-columns: repeat(3, 25%);
     grid-gap: 20px;
   }
   .song_image {
